@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@layer base {
+  [type="text"],
+  [type="email"],
+  [type="url"],
+  [type="password"],
+  [type="number"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="search"],
+  [type="tel"],
+  [type="time"],
+  [type="week"],
+  [multiple],
+  textarea,
+  select {
+    border-radius: theme("borderRadius.md");
+    background-color: theme("colors.white");
+  }
+}
+
+.viewSwitch-0-2-5,
+.viewSwitch-0-2-15 {
+  display: flex;
+  margin-top: -1px;
+  margin-left: unset !important;
+}
+.contentArea-0-2-18 > textarea,
+.contentArea-0-2-8 > textarea {
+  width: 100% !important;
+}
+.viewButton-0-2-16,
+.viewButton-0-2-6 {
+  width: 74px !important;
+}
+html {
+  --scrollbarBG: transparent;
+  --thumbBG: transparent;
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+
