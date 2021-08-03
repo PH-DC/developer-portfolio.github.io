@@ -1,0 +1,37 @@
+
+
+.p1{
+    display: flex;
+    margin: 5% 10% 100px;
+    padding: 0% 30px;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(../Images/pngtree-clean-energy-green-recycling-bulb-poster-background-image_135256.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.p1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.p2{
+    display: flex;
+    margin: 0% 10% 100px;
+    padding: 0% 30px;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(../Images/IOT-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.p2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}

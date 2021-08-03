@@ -1,0 +1,14 @@
+.impact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.src{
+    width: 300px;
+    height: auto;
+    border-radius: 200px;
+    size: 50%;
+}

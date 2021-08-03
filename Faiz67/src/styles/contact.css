@@ -1,0 +1,10 @@
+.contact img{
+    width: 5rem;
+    height: auto;
+}
+
+.contact{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
