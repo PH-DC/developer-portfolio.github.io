@@ -1,0 +1,74 @@
+.footerSection {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #40a2fc;
+}
+.footerSection a {
+  text-decoration: none;
+}
+.email {
+  font-size: 1.5rem;
+}
+.email a {
+  position: relative;
+  color: #524c4c;
+  padding: 5px;
+  font-weight: 800;
+}
+
+.email a::before {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: 0.2s ease-out;
+  background-color: #524c4c;
+}
+.email:hover a::before {
+  width: 100%;
+}
+
+.download_resume button {
+  padding: 8px 10px;
+  font-size: 1.2rem;
+  color: #40a2fc;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+.download_resume button a {
+  color: #000000;
+}
+.socialMedia ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.socialMedia ul li a {
+  cursor: pointer;
+  background-color: white;
+  height: max-content;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.socialMedia ul li img {
+  margin: 5px;
+  width: 30px;
+}
+.copyright {
+  align-self: bottom;
+}
+.copyright p {
+  color: black;
+}

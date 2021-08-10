@@ -1,0 +1,25 @@
+.navbar {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar > .navbar_nav > .navbar_navItems {
+  list-style: none;
+}
+.navbar > .navbar_nav > .navbar_navItems li a img {
+  width: 40px;
+  margin: 20px;
+}
+
+.navbar > .navbar_nav > .navbar_navItems li a img:hover {
+  filter: saturate(1.4);
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar > .navbar_nav > .navbar_navItems {
+    display: flex;
+    position: sticky;
+    bottom: 0;
+  }
+}

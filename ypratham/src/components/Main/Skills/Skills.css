@@ -1,0 +1,91 @@
+.skillsPage {
+  width: 100%;
+  padding: 20px;
+}
+.skillsPage h1 {
+  margin: 5% 1%;
+  font-size: 3.7rem;
+  color: #524c4c;
+}
+.skillsPage_skillItem ul {
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+  grid-gap: 10px;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.icons_item {
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.icons_item img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.icons_item::after {
+  content: " ";
+  position: absolute;
+  width: 50%;
+  height: 3.1px;
+  background-color: #0500ff;
+  bottom: 0;
+  left: 0;
+}
+
+.cpp.icons_item::after {
+  width: 50%;
+}
+.html.icons_item::after {
+  width: 75%;
+}
+.javascript.icons_item::after {
+  width: 75%;
+}
+.java.icons_item::after {
+  width: 50%;
+}
+.python.icons_item::after {
+  width: 40%;
+}
+.sql.icons_item::after {
+  width: 60%;
+}
+.mongodb.icons_item::after {
+  width: 70%;
+}
+.nodejs.icons_item::after {
+  width: 60%;
+}
+.reactjs.icons_item::after {
+  width: 85%;
+}
+.expressjs.icons_item::after {
+  width: 75%;
+}
+.photoshop.icons_item::after {
+  width: 40%;
+}
+.illustrator.icons_item::after {
+  width: 45%;
+}
+.premierpro.icons_item::after {
+  width: 30%;
+}
+.androidstudio.icons_item::after {
+  width: 40%;
+}
+.vscode.icons_item::after {
+  width: 85%;
+}
+.blender.icons_item::after {
+  width: 50%;
+}
