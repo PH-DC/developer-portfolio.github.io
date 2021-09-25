@@ -1,0 +1,15 @@
+.homePage {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  overflow: scroll;
+  background-color: rgb(245, 106, 107, 75%);
+}
+
+@media only screen and (max-width: 600px) {
+  .homePage {
+    flex-direction: column-reverse;
+  }
+}
