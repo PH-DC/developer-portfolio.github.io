@@ -14,7 +14,7 @@
   margin: 20px;
   padding: 16px 20px;
   font-size: 1.5rem;
-  color: #40a2fc;
+  color: #007dff;
   font-weight: 800;
   background: linear-gradient(
     135deg,
@@ -34,7 +34,6 @@
 }
 
 .startPage_greetings {
-  /* height: 100%; */
   padding-top: 10%;
   width: 100%;
   display: flex;
@@ -45,5 +44,14 @@
   color: #060239;
 }
 .startPage_greetings h1:nth-child(2) {
+  display: inline;
   margin: 30px auto;
+}
+
+@media screen and (max-width: 439px) {
+  .startPage_greetings h1:nth-child(2) {
+    display: inline;
+    margin: 30px auto;
+    text-align: center;
+  }
 }

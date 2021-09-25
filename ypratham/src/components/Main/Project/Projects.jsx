@@ -6,7 +6,7 @@ export default function Projects() {
         <div className="projectPage">
             <h1>PROJECTS</h1>
             <div className="cards" id="Project">
-                <Card title="FNOTE" language="MERN Stack" content="An instant note taking app" gitURL="https://github.com/ypratham/FNOTE" />
+                <Card title="FNOTE" language="MERN Stack" content="An instant note taking app with simple and UI" gitURL="https://github.com/ypratham/FNOTE" />
                 <Card title="Collab Draw" language="RectJs" content="A collabrative drawing app" gitURL="https://github.com/ypratham/FNOTE" />
                 <Card title="Article API" language="REST API" content="A API to get articles from database and also edit articles present in database" gitURL="https://github.com/ypratham/FNOTE" />
                 <Card title="Discord Bot" language="Python" content="A discord bot with great commands to enhance the user experience while using discord" gitURL="https://github.com/ypratham/FNOTE" />

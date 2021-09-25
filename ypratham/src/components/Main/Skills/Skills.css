@@ -36,7 +36,7 @@
   position: absolute;
   width: 50%;
   height: 3.1px;
-  background-color: #0500ff;
+  background-color: #007dff;
   bottom: 0;
   left: 0;
 }
@@ -88,4 +88,16 @@
 }
 .blender.icons_item::after {
   width: 50%;
+}
+
+@media screen and (max-width: 1182px) {
+  .skillsPage_skillItem ul {
+    grid-template-columns: 500px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .skillsPage_skillItem ul {
+    grid-template-columns: 320px;
+    justify-content: center;
+  }
 }

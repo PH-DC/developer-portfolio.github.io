@@ -1,9 +1,11 @@
 .aboutMe {
-  width: 100vw;
-  height: 60vh;
+  width: 100%;
+  height: max-content;
   display: flex;
-  padding-left: 10%;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10% auto;
 }
 
 .aboutMe img {
@@ -21,6 +23,13 @@
   justify-content: flex-start;
   align-items: flex-start;
   text-align: justify;
+}
+.aboutMe_buttons {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .aboutMe .aboutMe_content button {
   padding: 10px 20px;
@@ -44,5 +53,28 @@
   border: none;
   margin-top: 30px;
 }
+.aboutMe .aboutMe_content button a {
+  color: #007dff;
+  text-decoration: none;
+}
 
 /* Display block margin auto */
+
+/* 818 */
+
+@media screen and (max-width: 995px) {
+  .aboutMe_buttons {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .aboutMe {
+    flex-direction: column;
+  }
+  .aboutMe img {
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}

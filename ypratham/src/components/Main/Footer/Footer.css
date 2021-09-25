@@ -72,3 +72,9 @@
 .copyright p {
   color: black;
 }
+
+@media screen and (max-width: 341px) {
+  .email a {
+    font-size: 1.2rem;
+  }
+}
