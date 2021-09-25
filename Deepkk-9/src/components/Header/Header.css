@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+header {
+    position: fixed;
+    top: 0%;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: white;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    box-shadow: 0px 1px 3px rgb(219, 219, 219);
+}
+
+.left {
+    margin: 25px 0px 35px 70px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.left .list {
+    display: flex;
+    list-style: none;
+}
+
+.left .list #h3r{
+    display: none;
+}
+
+.left .list a {
+    position: relative;
+    margin-right: 50px;
+    text-decoration: none;
+    color: #0D2533;
+}
+
+.left .list li a::after {
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 119, 255);
+    transition: all 0.5s;
+}
+
+.left .list li:hover a::after {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.right a{
+    position: relative;
+    margin-right: 5rem;
+    color: #0D2533;
+    display: flex;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right a::after:nth-child(1){
+    content: "";
+    position: absolute;
+    left: 0%;
+    bottom: -10px;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(0, 119, 255);
+    transition: all 0.5s;
+}
+.right:hover a::after:nth-child(1){
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.right div
+{
+    display: none;
+    cursor: pointer;
+}
+
+ul 
+{
+    display: flex;
+    list-style: none;
+}
+
+.drawer {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.952);
+  display: grid;
+  place-items: center;
+  position: fixed;
+  width: 100%;
+  left: -100%;
+  transition: 0.5s;
+  z-index: 1;
+  top: 0px;
+}
+
+.drawer.active {
+  left: 0;
+  transition: 0.5s;
+}
+
+#dul {
+  list-style: none;
+  color: white;
+  height: 60%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  padding-top: 18%;
+}
+
+#dul li a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: x-large;
+  color: white;
+}
+#h3r
+{
+    height: 30px;
+    width: 30px;
+}
+/* Media Query */
+@media screen and  (max-width:1132px) {
+
+    .right
+    {
+        margin-right: 30px;
+    }
+
+    .left .list #h3r{
+        display: block;
+    }
+    .left
+    {
+        margin: 20px 30px;
+    }
+    .right div
+    {
+        display: block;
+    }
+
+    .right #h3
+    {
+        display: none;
+    } 
+    
+    .left .list #h3r
+    {
+        padding: 0px;
+    }
+
+    .left .list li
+    {
+        display: none;
+    }
+    
+}

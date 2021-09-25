@@ -1,0 +1,127 @@
+  .skillsPage
+  {
+    text-align: center;
+  }
+
+  .skillsPage .line h1
+  {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(0, 119, 255);
+    padding-top: 100px;
+  }
+  
+  .skillsPage_skillItem ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+    grid-row-gap: 27px;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 50px;
+  }
+
+  .icons_item {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: -1px -1px 3px 1px rgb(129, 129, 129);
+    background-color: white;
+    color: #0D2533;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .icons_item img {
+    width: 40px;
+    margin-right: 20px;
+  }
+  
+  .icons_item::after {
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 3.1px;
+    background-color: #0077FF;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .cpp.icons_item::after {
+    width: 50%;
+  }
+  .html.icons_item::after {
+    width: 75%;
+  }
+  .javascript.icons_item::after {
+    width: 75%;
+  }
+  .java.icons_item::after {
+    width: 50%;
+  }
+  .python.icons_item::after {
+    width: 40%;
+  }
+  .sql.icons_item::after {
+    width: 60%;
+  }
+  .mongodb.icons_item::after {
+    width: 70%;
+  }
+  .nodejs.icons_item::after {
+    width: 60%;
+  }
+  .reactjs.icons_item::after {
+    width: 85%;
+  }
+  .expressjs.icons_item::after {
+    width: 75%;
+  }
+  .photoshop.icons_item::after {
+    width: 40%;
+  }
+  .illustrator.icons_item::after {
+    width: 45%;
+  }
+  .premierpro.icons_item::after {
+    width: 30%;
+  }
+  .androidstudio.icons_item::after {
+    width: 40%;
+  }
+  .vscode.icons_item::after {
+    width: 85%;
+  }
+  .blender.icons_item::after {
+    width: 50%;
+  }
+
+/* Media Query */
+
+@media screen and (max-width:1000px) {
+
+  .skillsPage_skillItem ul 
+  {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media screen and (max-width:650px) {
+
+  .skillsPage h1
+  {
+    padding-top: 30px;
+  }
+
+  .skillsPage_skillItem ul 
+  {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 30px;
+  }
+  
+}
