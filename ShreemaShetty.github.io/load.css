@@ -1,0 +1,137 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+}
+
+.nav{
+  padding:0px;
+  margin:0px;
+  overflow: hidden;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+}
+
+.nav-right{
+  padding: 14px 0px;
+  float:right;
+}
+
+.nav a{
+  color:#ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right:2px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.nav a:hover {
+  background-color: #ffffff33;  
+  color:#ffffff;
+}
+
+.nav a.active {
+  background-color: #ffffff33;
+  color: #ffffff;
+}
+
+.img1{
+  float:left;
+  border-radius: 50%;
+  height: 250px;
+  margin:auto;
+}
+
+.top{
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+  color:#fff;
+  margin:auto;
+}
+
+.icon{
+  padding-right: 5%;
+}
+
+.header{
+  width:70%;
+  margin:auto;
+}
+
+.header-text{
+  float:right;
+  padding-top: 50px;
+}
+
+.header::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.bottom{
+  background-color:white;
+  padding: 2% 10%;
+}
+
+.info{
+  display:block;
+}
+
+.info1{
+  display:inline-block;
+  padding: 0 30% 0 0;
+}
+
+.info2{
+  display:inline-block;
+  padding: 0 20% 0 0;
+}
+
+.info2>p{
+  margin-top: 0px;
+}
+
+.body-project{
+  margin: 0%;
+}
+
+.info3>h2{
+  text-align: center;
+  padding: 100px;
+  font-size: -webkit-xxx-large;
+  background: rgb(2,0,36);
+  background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  margin:0px;
+}
+
+.info4{
+  padding: 0px 3%;
+  margin-top: 10px;
+}
+
+.info4-1>h2{
+  border-bottom: 1px solid #69696980;
+}
+
+.info4-1{
+  display: inline-block;
+  width:25%;
+  min-width: 310px;
+  padding: 0 2.5%;
+  text-align: center;
+  margin-right: 4%;
+  color:#fff;
+  vertical-align: top;
+  background-color: rgb(1, 23, 43) ;
+  border: 1px solid #69696980; 
+}
+
+.info4-1:hover{
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.5),0 4px 20px 0 rgba(0,0,0,0.5)}
+
+.last-block{
+  margin-right: 0%;
+}
