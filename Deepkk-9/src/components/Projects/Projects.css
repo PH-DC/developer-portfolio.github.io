@@ -1,0 +1,110 @@
+#ProjectSec
+{
+    text-align: center;   
+}
+
+#ProjectSec h1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(0, 119, 255);
+    padding-top: 120px; 
+}
+
+.ProjectCards
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ProjectCards div
+{
+    padding: 45px 20px;
+    width: 17%;
+    color: white;
+    font-weight: bold;
+    background-color:  #0ca6ff;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px 5px rgb(78, 78, 78);
+    transition: all 0.4s;
+    margin: 110px 0;
+}
+
+.ProjectCards div h2
+{
+    margin: 20px 0;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProjectCards div p
+{
+    margin: 20px 0;
+    width: 100%;
+}
+
+.ProjectCards div:hover
+{
+    transform: scale(1.05);
+}
+
+.ProjectCards div svg path 
+{
+    fill: black;
+}
+
+
+#icons-p svg:hover path 
+{
+    fill: white;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width:1000px) {
+
+    .ProjectCards
+    {
+        display: grid;
+        grid-template-columns: repeat(1 , 100rem);
+        place-items: center;
+        grid-gap: 4rem;
+        margin: 50px 0 100px 0;
+    }
+
+    .ProjectCards div
+    {
+        margin: 0;
+        padding: 30px 10px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .ProjectCards
+    {
+        grid-template-columns: repeat(1, 80rem);
+    }
+
+    
+    .ProjectCards div
+    {
+        padding: 20px;
+    }
+
+    .ProjectCards div h2
+    {
+        font-size: 1.3rem;
+    }   
+
+    .ProjectCards div p
+    {
+        font-size: medium;
+    }
+
+}

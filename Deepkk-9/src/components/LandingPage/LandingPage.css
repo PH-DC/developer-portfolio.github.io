@@ -1,0 +1,165 @@
+.LandingPage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    padding: 45px 0;
+    height: 100vh;
+    /* margin-top: 50px; */
+}
+
+.leftc
+{
+    color: #0D2533;
+    padding: 20px;
+}
+
+.leftc .one {
+    margin: 5px auto;
+}
+
+.two {
+    margin: 5px auto;
+}
+
+.three {
+    margin: 5px auto;
+}
+
+.four
+{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.four button {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    padding: 12px 40px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.four button:hover
+{
+    background-color: blue;
+    box-shadow: 2px 2px 10px 3px rgb(41, 36, 36);
+    transition: all 0.3s ease-in-out;
+}
+
+.four a
+{
+    text-decoration: none;
+    width: max-content;
+}
+
+.img img {
+    height: 28rem;
+    padding: 40px;
+}
+
+#name {
+    color: rgb(0, 119, 255);
+}
+
+.logo .logol
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.logo img
+{
+    display: none;
+}
+
+.icons svg
+{
+    cursor: pointer;
+}
+
+
+.icons svg:hover path 
+{
+    fill: rgb(0, 119, 255);
+}
+
+
+/* Media Query  */
+@media screen and (max-width:1100px) {
+    .LandingPage
+    {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+    }
+
+    .leftc
+    {
+        font-size: 3rem;
+    }
+
+    .leftc .four 
+    {
+        padding: 20px 0 30px 0;
+    }
+
+    .LandingPage .leftc .logo
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .LandingPage .leftc .logo .logol
+    {
+        display: grid;
+        grid-gap: 1rem;
+        height: max-content;
+    }
+
+    .logo img
+    {
+        display: block;
+        width: 500px;
+        margin-left: 15px;
+    }
+
+    .LandingPage .img img
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    .LandingPage 
+    {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leftc
+    {
+        font-size: 2.3rem;
+    }
+    
+    .logo img
+    {
+        width: 300px;
+    }
+}

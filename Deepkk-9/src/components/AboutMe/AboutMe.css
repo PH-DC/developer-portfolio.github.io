@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+#AboutMeSec
+{
+    text-align: center;
+}
+
+#AboutMeSec .line h1
+{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 100px;
+    color: rgb(0, 119, 255);
+}
+
+.about
+{
+    padding: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #0D2533;
+    font-size: large;
+}
+
+.about img 
+{
+    border-radius: 10px;
+    width: 19rem;
+    height: 24rem;
+}
+
+.about div
+{
+    width: 45%;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: left;
+}
+
+.about div h2 
+{
+    margin: 20px;
+}
+
+.about div p
+{
+    margin: 20px;
+}
+
+.about div h4
+{
+    margin: 20px;
+}
+
+.about div button
+{
+    margin: 30px 20px;
+}
+
+.about button {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(0, 119, 255);
+    padding: 10px 22px;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.about button:hover
+{
+    background-color: white;
+    box-shadow: 2px 2px 10px 3px rgb(41, 36, 36);
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+.about button a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.about button:hover a
+{
+    color: rgb(0, 119, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Media Query  */
+
+@media screen and (max-width:1141px) {
+
+    #AboutMeSec 
+    {
+        height: 100%;
+        width: 100%;
+    }
+    #AboutMeSec .line h1
+    {
+        padding-top: 0px;
+        position: relative;
+    }
+
+    #AboutMeSec .about
+    {
+        display: grid;
+        place-items: center;
+        padding: 40px 0;
+    }
+
+    #AboutMeSec .about div
+    {
+        width: 100%;
+    }
+    
+    #AboutMeSec .about div h2
+    {
+        text-align: center;
+        margin-top: 40px;
+    } 
+
+    #AboutMeSec .about div p
+    {
+        text-align: center;
+        padding: 0px 10px;
+    } 
+    
+    #AboutMeSec .about div h4
+    {
+        text-align:center;
+        margin-bottom: 40px;
+    }  
+
+    #AboutMeSec .about div button
+    {
+        margin: auto;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    
+    #AboutMeSec .about img
+    {
+        width: 15rem;
+        height: 19rem;
+    }
+    
+    #AboutMeSec .line h1
+    {
+        padding: 0px;
+    }
+}

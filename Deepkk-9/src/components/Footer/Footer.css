@@ -1,0 +1,33 @@
+#Footer
+{
+    background-color: #0D2533;
+    display: grid;
+    place-items: center;
+    grid-gap: 40px;
+    padding: 30px;
+    color: white;
+}
+
+#Footer .logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    width: 18%;
+}
+ 
+/* Media Query */
+
+@media screen and (max-width: 800px){
+    
+    #Footer .logo
+    {
+       width: 50%;
+    }
+
+    #Footer p 
+    {
+        font-size: small;
+    }    
+}
